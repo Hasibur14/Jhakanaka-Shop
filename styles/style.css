@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-family: 'Poppins', sans-serif;
     background-color: #9376e0;
@@ -11,8 +18,6 @@ header {
     margin: 0 auto;
     display: flex;
     background-color: #9376e0
-
-
 }
 
 .nav-container-left {
@@ -43,9 +48,10 @@ header {
     text-decoration: none;
     color: beige;
     font-size: 18px;
-    
+
 }
-button{
+
+.btn-primary {
     background-color: #e893cf;
     border: none;
     height: 40px;
@@ -54,6 +60,82 @@ button{
     border-radius: 5px;
 
 }
-button:hover{
+
+.btn-primary button:hover {
     background-color: chocolate;
+}
+
+
+/* men bags section */
+.container-menbags {
+    background-color: rgb(238, 236, 233);
+    max-width: 1440px;
+    height: 450px;
+    margin: 35px auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.container-menbags-text {
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-menbags-text h1 {
+    background: linear-gradient(to right, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-menbags-text p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 43px;
+
+}
+
+.container-menbags-icons {
+    margin-top: 20px;
+    dap: 10px
+}
+
+.fa-brands {
+    font-size: 50px;
+    gap: 10px;
+    width: 60px;
+}
+
+.container-menbags button {
+    width: 90px;
+    height: 35px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container-menbags-img {
+    width: 50%;
+    height: 450px;
+}
+
+.container-menbags-img img {
+    width: 94%;
+    height: 88%;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+
+/* Products section */
+.card{
+    border: 2px solid darkcyan;
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
 }
